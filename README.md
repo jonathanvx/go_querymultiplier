@@ -34,7 +34,7 @@ insert ignore into table select * from table2 LIMIT 260,10;
 insert ignore into table select * from table2 LIMIT 270,10;
 insert ignore into table select * from table2 LIMIT 280,10;
 insert ignore into table select * from table2 LIMIT 290,10;
-insert ignore into table select * from table2 LIMIT 300,10;
+insert ignore into table select * from table2 LIMIT 300,1;
 ```
 
 ```
@@ -69,5 +69,5 @@ insert ignore into table select * from table2 WHERE id between 261 and 270;
 insert ignore into table select * from table2 WHERE id between 271 and 280;
 insert ignore into table select * from table2 WHERE id between 281 and 290;
 insert ignore into table select * from table2 WHERE id between 291 and 300;
-insert ignore into table select * from table2 WHERE id between 301 and 310;
+insert ignore into table select * from table2 WHERE id between 301 and 301;
 ```
