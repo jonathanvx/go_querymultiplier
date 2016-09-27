@@ -1,5 +1,5 @@
 # querymultiplier
-Golang tools to help with maintaining MySQL
+Golang tool for chunking data processing operations
 
 Usage:
 ```
